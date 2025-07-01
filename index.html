@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מאמן האותיות העבריות לDALL·E</title>
+    <link rel="stylesheet" href="style.css?v=6">
+    <!-- Hebrew fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>מאמן האותיות העבריות לDALL·E</h1>
+        </header>
+
+        <main>
+            <!-- Input Section -->
+            <div class="input-section">
+                <label for="letterInput">הכנס אות עברית או תיאור:</label>
+                <input type="text" id="letterInput" placeholder='לדוגמה: "האות אל״ף בכתב יד"'>
+                
+
+                <div class="button-group">
+                    <button id="generateImageBtn" class="primary-btn">🎨 צור תמונה עם AI</button>
+                </div>
+            </div>
+
+            <!-- Generated Prompt -->
+            <div id="promptSection" class="prompt-section hidden">
+                <h3>פרומפט שנוצר:</h3>
+                <div id="generatedPrompt" class="prompt-text"></div>
+            </div>
+
+            <!-- Generated Image -->
+            <div id="imageSection" class="image-section hidden">
+                <h3>התמונה שנוצרה:</h3>
+                <div class="image-container">
+                    <img id="generatedImage" alt="תמונה שנוצרה">
+                </div>
+            </div>
+
+            <!-- Feedback Section -->
+            <div id="feedbackSection" class="feedback-section hidden">
+                <h3>איך התוצאה?</h3>
+                <div class="feedback-buttons">
+                    <button id="correctBtn" class="feedback-btn correct">✔️ נכון</button>
+                    <button id="incorrectBtn" class="feedback-btn incorrect">❌ לא נכון</button>
+                </div>
+            </div>
+
+            <!-- New Letter Section -->
+            <div id="resetSection" class="reset-section hidden">
+                <button id="newLetterBtn" class="outline-btn">אות חדשה</button>
+            </div>
+
+            <!-- Status Messages -->
+            <div id="statusMessage" class="status-message hidden"></div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

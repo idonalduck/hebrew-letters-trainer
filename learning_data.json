@@ -1,0 +1,60 @@
+{
+  "letterSuccessRates": {
+    "א": {
+      "correct": 1,
+      "total": 1
+    },
+    "שלום": {
+      "correct": 1,
+      "total": 2
+    },
+    "חתול": {
+      "correct": 1,
+      "total": 1
+    }
+  },
+  "promptEffectiveness": {
+    "Hebrew letter ALEPH (א) - PRECISE VISUAL INSTRUCTI": {
+      "correct": 1,
+      "total": 1
+    },
+    "Hebrew letter Shin (ש). Has three vertical lines c": {
+      "correct": 0,
+      "total": 1
+    },
+    "Hebrew word \"שלום\" written in traditional Hebrew s": {
+      "correct": 1,
+      "total": 1
+    },
+    "Hebrew word \"חתול\" written in traditional Hebrew s": {
+      "correct": 1,
+      "total": 1
+    }
+  },
+  "userFeedback": [
+    {
+      "letter": "א",
+      "prompt": "Hebrew letter ALEPH (א) - PRECISE VISUAL INSTRUCTIONS: Draw exactly like this: Upper diagonal line from top-left to center-right. Lower diagonal line from bottom-left to center-right. Horizontal line connecting both diagonals in the middle. Forms an X-shape with horizontal crossbar. NO other interpretations. Copy this EXACT traditional shape: א. Professional Hebrew calligraphy, black ink on white background, clean typography, biblical manuscript style",
+      "isCorrect": true,
+      "timestamp": "2025-07-01T21:09:10.362Z"
+    },
+    {
+      "letter": "שלום",
+      "prompt": "Hebrew letter Shin (ש). Has three vertical lines connected at the top, like a crown or the letter W upside down. Professional Hebrew calligraphy, black ink on white background, clean typography, biblical manuscript style",
+      "isCorrect": false,
+      "timestamp": "2025-07-01T21:14:56.275Z"
+    },
+    {
+      "letter": "שלום",
+      "prompt": "Hebrew word \"שלום\" written in traditional Hebrew script. Beautiful handwritten Hebrew calligraphy, right-to-left text direction, proper letter spacing and connections. Professional Hebrew calligraphy, black ink on white background, clean typography, biblical manuscript style",
+      "isCorrect": true,
+      "timestamp": "2025-07-01T21:22:18.685Z"
+    },
+    {
+      "letter": "חתול",
+      "prompt": "Hebrew word \"חתול\" written in traditional Hebrew script. Beautiful handwritten Hebrew calligraphy, right-to-left text direction, proper letter spacing and connections. Professional Hebrew calligraphy, black ink on white background, clean typography, biblical manuscript style",
+      "isCorrect": true,
+      "timestamp": "2025-07-01T21:23:17.829Z"
+    }
+  ]
+}
